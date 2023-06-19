@@ -1,2 +1,3 @@
-# sessions-by-jbartlett
-A repository for all of my conference sessions: past, present, and future.
+# Sessions by James D. Bartlett III
+
+A repository for all of my sessions, presentations, demos, etc.
