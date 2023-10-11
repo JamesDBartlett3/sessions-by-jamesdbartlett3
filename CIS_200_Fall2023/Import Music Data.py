@@ -12,7 +12,7 @@
 # - [Multiple CSV files to build a relational database](https://www.kaggle.com/datasets/mcfurland/10-m-beatport-tracks-spotify-audio-features/data)
 # - [Single CSV file (music.csv) for simplified analysis](https://github.com/likeawednesday/TechCamp_DataViz/blob/main/data/music.csv)
 
-# In[ ]:
+# In[4]:
 
 
 import os
@@ -23,7 +23,7 @@ from pyspark.sql.types import IntegerType, StringType, BooleanType, DateType
 # Specify zip file name
 zip_file = 'multi_table.zip'
 
-# Specify schemas to import
+# Specify schemas to extract and import
 import_schemas = (
 
     # beatport
@@ -48,11 +48,8 @@ folder_path = os.path.join(base_path, spark_path, dataset_folder)
 # Specify zip file path
 zip_file_path = os.path.join(base_path, spark_path, dataset_folder + '.zip')
 
-# Get list of schemas from folder_path
-schemas = [s for s in os.listdir(folder_path) if s.startswith(import_schemas)]
 
-
-# In[ ]:
+# In[10]:
 
 
 # Extract zip file
@@ -75,14 +72,17 @@ with zipfile.ZipFile(zip_file_path, 'r') as archive:
         os.makedirs(destination)
 
       # Extract file into the destination directory
-      print(f"Extracting: {file}")
+      print(f"Extracting: {spark_path}/{dataset_folder}/{schema}/{file}")
       archive.extract(file, destination)
 
 archive.close()
 
 
-# In[ ]:
+# In[18]:
 
+
+# Get list of schemas extracted from zip file
+schemas = [s for s in os.listdir(folder_path) if s.startswith(import_schemas)]
 
 # Loop through schemas and import their tables
 for schema in schemas:
@@ -154,11 +154,11 @@ for schema in schemas:
 # In[ ]:
 
 
-# To delete all CSV files, drop all tables, and start over...
-# Un-freeze and run this cell
+# WARNING: DO NOT RUN THIS CELL UNLESS YOU REALLY KNOW WHAT YOU ARE DOING
+# To delete all CSV files, drop all tables, and start over: Un-freeze and run this cell
 
 # Delete the folder containing the CSV files
-# print(f"Deleting folder: {folder_path}")
+print(f"Deleting folder: {folder_path}")
 os.rmdir(folder_path)
 
 # Get name of current database
@@ -166,6 +166,14 @@ database_name = spark.catalog.currentDatabase()
 
 # Get a list of all tables
 tables = spark.catalog.listTables()
+
+import time
+print('⚠ WARNING: 30 SECONDS UNTIL ALL FILES AND TABLES WILL BE DELETED! ⚠')
+print('⚠ If you did not mean to do this, cancel this cell or stop the session NOW. ⚠')
+
+for i in range (0, 30):
+    print(str(30 - i) + '…')
+    time.sleep(1)
 
 # Drop all delta tables
 for table in tables:
