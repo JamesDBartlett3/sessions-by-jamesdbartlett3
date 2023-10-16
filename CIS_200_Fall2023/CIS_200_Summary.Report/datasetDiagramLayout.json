@@ -5,7 +5,7 @@
       "ordinal": 0,
       "scrollPosition": {
         "x": 0,
-        "y": 502.98127355429858
+        "y": 360.49382716049382
       },
       "nodes": [
         {
@@ -58,7 +58,7 @@
             "height": 176,
             "width": 196.95826999999997
           },
-          "zIndex": 19
+          "zIndex": 18
         },
         {
           "location": {
@@ -175,7 +175,7 @@
             "height": 493.20967741935488,
             "width": 176.02164000000005
           },
-          "zIndex": 18
+          "zIndex": 17
         },
         {
           "location": {
@@ -188,7 +188,7 @@
             "height": 248,
             "width": 203.40031000000005
           },
-          "zIndex": 17
+          "zIndex": 16
         },
         {
           "location": {
@@ -201,7 +201,7 @@
             "height": 152,
             "width": 148.64296999999988
           },
-          "zIndex": 15
+          "zIndex": 20
         },
         {
           "location": {
@@ -227,7 +227,7 @@
             "height": 152,
             "width": 187.29521000000022
           },
-          "zIndex": 16
+          "zIndex": 15
         },
         {
           "location": {
@@ -266,7 +266,7 @@
             "height": 224,
             "width": 234
           },
-          "zIndex": 20
+          "zIndex": 19
         }
       ],
       "name": "All tables",
@@ -275,281 +275,6 @@
       "showExtraHeaderInfo": false,
       "hideKeyFieldsWhenCollapsed": false,
       "tablesLocked": false
-    },
-    {
-      "ordinal": 1,
-      "scrollPosition": {
-        "x": 0,
-        "y": 363.93442622950823
-      },
-      "nodes": [
-        {
-          "location": {
-            "x": 2414.5421621863152,
-            "y": 898.57420447717755
-          },
-          "nodeIndex": "sp__artist",
-          "nodeLineageTag": "912479a6-2528-4483-88ac-7fc8b5061136",
-          "size": {
-            "height": 152,
-            "width": 234
-          },
-          "zIndex": 1
-        },
-        {
-          "location": {
-            "x": 1846.2865793975877,
-            "y": 485.37466494749225
-          },
-          "nodeIndex": "sp__track",
-          "nodeLineageTag": "cbae2023-a1d4-411b-9a71-221dab86e3c9",
-          "size": {
-            "height": 300,
-            "width": 234
-          },
-          "zIndex": 2
-        },
-        {
-          "location": {
-            "x": 2130.4897155261342,
-            "y": 355.45367352588772
-          },
-          "nodeIndex": "sp__release",
-          "nodeLineageTag": "265e1713-729f-4aa4-aeeb-1230019ab119",
-          "size": {
-            "height": 300,
-            "width": 234
-          },
-          "zIndex": 3
-        },
-        {
-          "location": {
-            "x": 2414.6396568087384,
-            "y": 692.60428495380256
-          },
-          "nodeIndex": "sp__artist_release",
-          "nodeLineageTag": "cdf4eea5-73e7-4e9a-b539-406001acf3c9",
-          "size": {
-            "height": 152,
-            "width": 234
-          },
-          "zIndex": 4
-        },
-        {
-          "location": {
-            "x": 2130.3315949416378,
-            "y": 851.57316845146067
-          },
-          "nodeIndex": "sp__artist_track",
-          "nodeLineageTag": "7d3ce16e-1b3a-4ef7-953b-8e59b055fd8a",
-          "size": {
-            "height": 152,
-            "width": 234
-          },
-          "zIndex": 5
-        },
-        {
-          "location": {
-            "x": 296.3744137509965,
-            "y": 803.9802918405228
-          },
-          "nodeIndex": "bp__artist",
-          "nodeLineageTag": "3255ee45-c2f5-4890-a52e-6e4ccf4d4b0d",
-          "size": {
-            "height": 176,
-            "width": 234
-          },
-          "zIndex": 6
-        },
-        {
-          "location": {
-            "x": 10,
-            "y": 751.7049955622407
-          },
-          "nodeIndex": "bp__artist_media",
-          "nodeLineageTag": "aa674965-fdea-4659-8803-463e8634c298",
-          "size": {
-            "height": 176,
-            "width": 234
-          },
-          "zIndex": 7
-        },
-        {
-          "location": {
-            "x": 611.62816233243188,
-            "y": 207.42482273578753
-          },
-          "nodeIndex": "bp__artist_release",
-          "nodeLineageTag": "3ee4c1d1-277d-4f42-a1c7-4c3098095c2f",
-          "size": {
-            "height": 152,
-            "width": 234
-          },
-          "zIndex": 8
-        },
-        {
-          "location": {
-            "x": 1562.2865793975875,
-            "y": 433.6070861671426
-          },
-          "nodeIndex": "bp__genre",
-          "nodeLineageTag": "1892d14b-3ca4-4117-8897-cc660db7fcc3",
-          "size": {
-            "height": 200,
-            "width": 234
-          },
-          "zIndex": 9
-        },
-        {
-          "location": {
-            "x": 873.72110350139656,
-            "y": 910.743494785552
-          },
-          "nodeIndex": "bp__label",
-          "nodeLineageTag": "9509401b-b7ea-48ee-a9ec-99799810a02a",
-          "size": {
-            "height": 176,
-            "width": 234
-          },
-          "zIndex": 10
-        },
-        {
-          "location": {
-            "x": 296.56323122855383,
-            "y": 1033.4732701865819
-          },
-          "nodeIndex": "bp__label_artist",
-          "nodeLineageTag": "96c04787-50c1-4846-9bba-0ba5c3f6f5da",
-          "size": {
-            "height": 152,
-            "width": 234
-          },
-          "zIndex": 11
-        },
-        {
-          "location": {
-            "x": 521.77688883015412,
-            "y": 1240.0278780030653
-          },
-          "nodeIndex": "bp__label_media",
-          "nodeLineageTag": "3c16ca03-8fd5-41d5-b04a-f2dd3a4e93a4",
-          "size": {
-            "height": 176,
-            "width": 234
-          },
-          "zIndex": 12
-        },
-        {
-          "location": {
-            "x": 716.90834055108053,
-            "y": 425.7688033154443
-          },
-          "nodeIndex": "bp__release",
-          "nodeLineageTag": "bb74587b-6413-4d82-8809-dd9f1ee8c5c6",
-          "size": {
-            "height": 224,
-            "width": 234
-          },
-          "zIndex": 13
-        },
-        {
-          "location": {
-            "x": 1059.2185402823407,
-            "y": -10
-          },
-          "nodeIndex": "bp__release_media",
-          "nodeLineageTag": "add0be35-fb70-4a43-8430-0e33814e1a55",
-          "size": {
-            "height": 176,
-            "width": 234
-          },
-          "zIndex": 14
-        },
-        {
-          "location": {
-            "x": 1362.7581468325591,
-            "y": 129.98394746048098
-          },
-          "nodeIndex": "bp__subgenre",
-          "nodeLineageTag": "37cb194e-eac4-405f-8f93-0c8e50e3b149",
-          "size": {
-            "height": 248,
-            "width": 234
-          },
-          "zIndex": 15
-        },
-        {
-          "location": {
-            "x": 1517.4219049223875,
-            "y": 687.04973758249776
-          },
-          "nodeIndex": "bp__track_media",
-          "nodeLineageTag": "3cb604bc-8f2b-49ba-adf0-7b0bb2075177",
-          "size": {
-            "height": 248,
-            "width": 234
-          },
-          "zIndex": 16
-        },
-        {
-          "location": {
-            "x": 1072.8603620332538,
-            "y": 226.31046900340885
-          },
-          "nodeIndex": "bp__track",
-          "nodeLineageTag": "27631193-9608-4338-b8eb-56c77c52ce3c",
-          "size": {
-            "height": 547.54098360655746,
-            "width": 234
-          },
-          "zIndex": 19
-        },
-        {
-          "location": {
-            "x": 585.58094658202,
-            "y": 704.95681846016873
-          },
-          "nodeIndex": "bp__artist_track",
-          "nodeLineageTag": "abc48514-7321-45de-9fb6-890f49d03ac7",
-          "size": {
-            "height": 176,
-            "width": 234
-          },
-          "zIndex": 17
-        },
-        {
-          "location": {
-            "x": 1233.2015477766422,
-            "y": 991.68305302228987
-          },
-          "nodeIndex": "bp__key",
-          "nodeLineageTag": "2c61f235-378d-4da8-94a3-4de38f292702",
-          "size": {
-            "height": 296,
-            "width": 234
-          },
-          "zIndex": 18
-        },
-        {
-          "location": {
-            "x": 62.321697664271142,
-            "y": 353.4729553949752
-          },
-          "nodeIndex": "bp__track_artist_genre",
-          "nodeLineageTag": "5969aac5-fa7d-4bb2-a97c-8740e8aac65c",
-          "size": {
-            "height": 224,
-            "width": 234
-          },
-          "zIndex": 20
-        }
-      ],
-      "name": "Default dataset objects",
-      "zoomValue": 61,
-      "pinKeyFieldsToTop": false,
-      "showExtraHeaderInfo": false,
-      "hideKeyFieldsWhenCollapsed": false,
-      "tablesLocked": true
     }
   ],
   "selectedDiagram": "All tables",
